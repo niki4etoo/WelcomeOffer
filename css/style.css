@@ -1,0 +1,53 @@
+* {
+	box-sizing: content-box;
+}
+
+#svg_container {
+	margin: 50px auto;
+	width: 100%;
+}
+
+.container {
+	display: block;
+	margin: 50px auto;
+	width: 70%;
+	
+	
+	font-size: 2vw;
+	letter-spacing: 2px;
+}
+
+#startText {
+	font-size: 3vw;
+}
+
+#techStackList {
+	margin: 20px 100px;
+	font-weight: 800;
+	font-size: 4vw;
+}
+
+#text2 {
+	font-size: 3vw;
+	text-align: left;
+}
+
+#text3 {
+	font-size: 3vw;
+	text-align: right;
+}
+
+#finalText {
+	margin: 20px 0px;
+	text-align: center;
+	
+	font-size: 7vw;
+	font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+	#svg_container {
+		margin: 50px auto;
+		width: 250px;
+	}
+}
